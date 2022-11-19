@@ -7,7 +7,7 @@ contract GasFeesPayableInNativeToken {
 
     //constructor(){}
 
-    function transferUsingNativeToken() public {}
+    function transferUsingNativeToken(address _token) public {}
 
     function callUsingNativeToken() public {}
 }
